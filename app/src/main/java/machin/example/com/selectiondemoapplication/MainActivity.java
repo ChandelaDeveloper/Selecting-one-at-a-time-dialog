@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         new SelectionBuilder(this)
-                .setTitle("Hello Please select somthing")
+                .setTitle("Hello Please select something")
                 .setList(Arrays.asList(getResources().getStringArray(R.array.classes)))
                 .setFont(null)
                 .setTitleColor(ContextCompat.getColor(this, R.color.orange))
